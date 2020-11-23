@@ -3,8 +3,9 @@ import os
 import time
 import math
 import numpy as np
-import tensorflow as tf
-import tensorflow.contrib.slim as slim
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+import tf_slim as slim
 from data_loader import DataLoader
 from nets import *
 from utils import *
