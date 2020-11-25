@@ -12,7 +12,9 @@ See the [project webpage](https://people.eecs.berkeley.edu/~tinghuiz/projects/Sf
 <img src='misc/cityscapes_sample_results.gif' width=320>
 
 ## Prerequisites
-This codebase was developed and tested with Tensorflow 1.0, CUDA 8.0 and Ubuntu 16.04.
+This codebase was developed and tested with tensorflow-2, tf_slim, numpy,
+matplotlib, scipy, and PIL. To quickly use the required environment, use 
+[conda](anaconda.com) and the file found in `conda/environment.yml`.
 
 ## Running the single-view depth demo
 We provide the demo code for running our single-view depth prediction model. First, download the pre-trained model by running the following
