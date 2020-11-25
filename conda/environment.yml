@@ -1,4 +1,4 @@
-name: Tensorflow
+name: sfmlearner-tensorflow2
 channels:
   - conda-forge
   - defaults
