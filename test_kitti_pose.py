@@ -2,7 +2,8 @@ from __future__ import division
 import os
 import math
 import scipy.misc
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import numpy as np
 from glob import glob
 from SfMLearner import SfMLearner
