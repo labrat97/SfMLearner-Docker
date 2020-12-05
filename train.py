@@ -1,6 +1,5 @@
 from __future__ import division
 import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
 import pprint
 import random
 import numpy as np
