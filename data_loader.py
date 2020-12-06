@@ -2,7 +2,6 @@ from __future__ import division
 import os
 import random
 import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
 
 class DataLoader(object):
     def __init__(self, 
